@@ -1,0 +1,27 @@
+platform :ios, '12.0'
+
+target 'StocksApp' do
+  use_frameworks!
+  inhibit_all_warnings!
+
+  # Pods for StocksApp
+
+  pod 'FacebookCore', '~> 0.9.0'
+  pod 'FacebookLogin', '~> 0.9.0'
+  pod 'FacebookShare', '~> 0.9.0'
+
+  pod 'Firebase/Core', '~> 6.1.0'
+  pod 'Firebase/Auth', '~> 6.1.0'
+  pod 'Firebase/Database', '~> 6.1.0'
+  pod 'Firebase/Storage', '~> 6.1.0'
+  pod 'Firebase/Firestore', '~> 6.1.0'
+  pod 'Firebase/Messaging', '~> 6.1.0'
+
+  pod 'Alamofire', '~> 4.9.0'
+  pod 'Kingfisher', '~> 5.7.1'
+
+  pod 'Charts', '~> 3.3.0'
+  pod 'ChameleonFramework', '~> 2.1.0'
+  pod 'Eureka', '~> 5.0.0'
+
+end
