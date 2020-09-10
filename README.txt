@@ -9,7 +9,6 @@
 @Samuel Lee
 @Luke McFaul
 @Lauryn Nakamitsu
-@Arlene Chu
 
 This project belongs to @Ascend2020. Do not distribute
     without consent.
