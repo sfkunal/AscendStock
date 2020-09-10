@@ -23,7 +23,7 @@ class FinanceUIConfiguration: ATCUIGenericConfigurationProtocol, ATCOnboardingSe
 
     let homeImage = UIImage.localImage("home-icon", template: true)
     let expensesImage = UIImage.localImage("expenses-pie-icon", template: true)
-    let accountsImage = UIImage.localImage("accounts-list-icon", template: true)
+    // let accountsImage = UIImage.localImage("accounts-list-icon", template: true)
     let portfolioImage = UIImage.localImage("money-bag-empty-icon", template: true)
     let notificationsImage = UIImage.localImage("bell-icon", template: true)
     let profileImage = UIImage.localImage("profile-male-icon", template: true)
