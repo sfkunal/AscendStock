@@ -14,15 +14,15 @@ class ATCFinanceContactUsViewController: QuickTableViewController {
 
         tableContents = [
             Section(title: "Contact", rows: [
-                NavigationRow(text: "Our address", detailText: .subtitle("1412 Steiner Street, San Fracisco, CA, 94115"), icon: .named("globe")),
-                NavigationRow(text: "E-mail us", detailText: .value1("office@iosapptemplates.com"), icon: .named("time"), action: { (row) in
-                    guard let email = URL(string: "mailto:office@iosapptemplates.com") else { return }
+                NavigationRow(text: "Our address", detailText: .subtitle(""), icon: .named("globe")),
+                NavigationRow(text: "E-mail us", detailText: .value1("kunal@masagroup.com"), icon: .named("time"), action: { (row) in
+                    guard let email = URL(string: "mailto:kunal@masagroup.com") else { return }
                     UIApplication.shared.open(email)
                 })
                 ], footer: "Our business hours are Mon - Fri, 10am - 5pm, PST."),
             Section(title: "", rows: [
                 TapActionRow(text: "Call Us", action: { (row) in
-                    guard let number = URL(string: "tel://6504859694") else { return }
+                    guard let number = URL(string: "tel://6502292554") else { return }
                     UIApplication.shared.open(number)
                 })
                 ]),
