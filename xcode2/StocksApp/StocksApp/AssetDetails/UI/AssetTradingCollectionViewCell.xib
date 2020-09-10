@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AssetTradingCollectionViewCell" customModule="FinanceApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="280" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nj3-wu-fhD" userLabel="Container View">
+                        <rect key="frame" x="20" y="0.0" width="240" height="150"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O40-jb-mBq" userLabel="Buy Button">
+                                <rect key="frame" x="0.0" y="55" width="115" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="QCo-lh-PiS"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izX-Gh-gvI" userLabel="Sell Button">
+                                <rect key="frame" x="125" y="55" width="115" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GdO-HZ-wSl"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="izX-Gh-gvI" firstAttribute="centerY" secondItem="Nj3-wu-fhD" secondAttribute="centerY" id="8Bf-yf-QAz"/>
+                            <constraint firstItem="O40-jb-mBq" firstAttribute="centerY" secondItem="Nj3-wu-fhD" secondAttribute="centerY" id="K5T-u7-EBm"/>
+                            <constraint firstAttribute="trailing" secondItem="izX-Gh-gvI" secondAttribute="trailing" id="OLH-Pf-x6s"/>
+                            <constraint firstItem="O40-jb-mBq" firstAttribute="width" secondItem="Nj3-wu-fhD" secondAttribute="width" multiplier="0.5" constant="-5" id="ptf-Wu-f3r"/>
+                            <constraint firstItem="O40-jb-mBq" firstAttribute="leading" secondItem="Nj3-wu-fhD" secondAttribute="leading" id="rWy-XW-z6A"/>
+                            <constraint firstItem="izX-Gh-gvI" firstAttribute="width" secondItem="Nj3-wu-fhD" secondAttribute="width" multiplier="0.5" constant="-5" id="xIg-YG-Nam"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Nj3-wu-fhD" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="HLv-36-FU7"/>
+                <constraint firstItem="Nj3-wu-fhD" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="i4k-Hj-yYg"/>
+                <constraint firstItem="Nj3-wu-fhD" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="tc3-S9-Nig"/>
+                <constraint firstItem="Nj3-wu-fhD" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" constant="-40" id="vGd-u3-pVL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="280" height="150"/>
+            <connections>
+                <outlet property="buyButton" destination="O40-jb-mBq" id="Aby-7l-ug4"/>
+                <outlet property="containerView" destination="Nj3-wu-fhD" id="zTM-lK-pOC"/>
+                <outlet property="sellButton" destination="izX-Gh-gvI" id="PLU-qL-HuW"/>
+            </connections>
+            <point key="canvasLocation" x="321.60000000000002" y="199.70014992503749"/>
+        </collectionViewCell>
+    </objects>
+</document>
