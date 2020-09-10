@@ -25,7 +25,7 @@ class ATCClassicSignUpViewController: UIViewController, ATCSignUpScreenProtocol 
     override func viewDidLoad() {
         super.viewDidLoad()
         delegate?.signUpScreenDidLoadView(self)
-        let color = UIColor(hexString: "#282E4F")
+        let color = UIColor(hexString: "#00ff99")
         backButton.tintColor = color
         backButton.addTarget(self, action: #selector(didTapBackButton), for: .touchUpInside)
         self.hideKeyboardWhenTappedAround()

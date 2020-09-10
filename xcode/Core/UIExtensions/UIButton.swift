@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIButton {
-    func configure(color: UIColor = .blue, font: UIFont = UIFont.boldSystemFont(ofSize: 12)) {
+    func configure(color: UIColor = .green, font: UIFont = UIFont.boldSystemFont(ofSize: 12)) {
         self.setTitleColor(color, for: .normal)
         self.titleLabel?.font = font
         self.layer.borderColor = color.cgColor
@@ -24,7 +24,7 @@ extension UIButton {
         }
     }
 
-    func configure(color: UIColor = .blue,
+    func configure(color: UIColor = .green,
                    font: UIFont = UIFont.boldSystemFont(ofSize: 12),
                    cornerRadius: CGFloat,
                    borderColor: UIColor? = nil,

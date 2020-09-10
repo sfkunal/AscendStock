@@ -22,7 +22,7 @@ class InstaRoundImageButton: UIButton {
     }
 
     func configure(image: UIImage = UIImage.localImage("share-icon", template: true),
-                   tintColor: UIColor = .blue,
+                   tintColor: UIColor = .green,
                    bgColor: UIColor = .white) {
         self.setImage(image, for: .normal)
         self.backgroundColor = bgColor

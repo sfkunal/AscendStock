@@ -96,7 +96,7 @@ class ATCLoginScreenManager: ATCLoginScreenDelegate {
             facebookButton.configure(color: uiConfig.loginButtonTextColor,
                                      font: uiConfig.loginButtonFont,
                                      cornerRadius: 55/2,
-                                     backgroundColor: UIColor(hexString: "#334D92"))
+                                     backgroundColor: UIColor(hexString: "#00ff99"))
         }
     }
 

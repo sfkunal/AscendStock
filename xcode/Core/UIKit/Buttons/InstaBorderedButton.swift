@@ -9,7 +9,7 @@
 import UIKit
 
 class InstaBorderedButton: UIButton {
-    func configure(tintColor: UIColor = .blue,
+    func configure(tintColor: UIColor = .green,
                    font: UIFont,
                    bgColor: UIColor = .white,
                    borderColor: UIColor,

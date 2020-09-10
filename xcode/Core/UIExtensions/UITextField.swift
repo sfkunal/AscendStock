@@ -9,7 +9,7 @@
 import UIKit
 
 extension UITextField {
-    func configure(color: UIColor = .blue,
+    func configure(color: UIColor = .green,
                    font: UIFont = UIFont.boldSystemFont(ofSize: 12),
                    cornerRadius: CGFloat,
                    borderColor: UIColor? = nil,

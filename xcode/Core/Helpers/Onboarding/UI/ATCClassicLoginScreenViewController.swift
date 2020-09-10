@@ -23,7 +23,7 @@ class ATCClassicLoginScreenViewController: UIViewController, ATCLoginScreenProto
     override func viewDidLoad() {
         super.viewDidLoad()
         delegate?.loginScreenDidLoadView(self)
-        backButton.tintColor = UIColor(hexString: "#282E4F")
+        backButton.tintColor = UIColor(hexString: "#00ff99")
         backButton.addTarget(self, action: #selector(didTapBackButton), for: .touchUpInside)
         self.hideKeyboardWhenTappedAround()
     }

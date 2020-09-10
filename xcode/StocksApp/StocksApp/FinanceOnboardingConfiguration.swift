@@ -44,7 +44,7 @@ class FinanceOnboardingConfiguration: ATCOnboardingConfigurationProtocol {
 
         signUpButtonFont = config.boldLargeFont
         signUpButtonBackgroundColor = config.mainThemeBackgroundColor
-        signUpButtonTextColor = UIColor(hexString: "#414665")
+        signUpButtonTextColor = UIColor(hexString: "#00ff99")
         signUpButtonBorderColor = UIColor(hexString: "#B0B3C6")
         separatorColor = config.mainTextColor
         separatorFont = config.mediumBoldFont

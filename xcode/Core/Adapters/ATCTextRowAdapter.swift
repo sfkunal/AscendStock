@@ -42,7 +42,7 @@ class ATCTextRowAdapter: ATCGenericCollectionRowAdapter {
         if let accessoryText = viewModel.accessoryText {
             cell.accessoryLabel.text = accessoryText
             cell.accessoryLabel.font = font.withSize(14.0)
-            cell.accessoryLabel.textColor = UIColor(hexString: "#a6a6a6")
+            cell.accessoryLabel.textColor = UIColor(hexString: "#a6wa6a6")
             cell.accessoryLabel.isHidden = false
         } else {
             cell.accessoryLabel.isHidden = true

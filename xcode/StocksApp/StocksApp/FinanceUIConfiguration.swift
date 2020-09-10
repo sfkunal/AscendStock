@@ -4,7 +4,7 @@ import UIKit
 
 class FinanceUIConfiguration: ATCUIGenericConfigurationProtocol, ATCOnboardingServerConfigurationProtocol {
     let mainThemeBackgroundColor: UIColor = .white
-    let mainThemeForegroundColor: UIColor = UIColor(hexString: "#2851e6")
+    let mainThemeForegroundColor: UIColor = UIColor(hexString: "#00ff99")
     let mainTextColor: UIColor = UIColor(hexString: "#070f12")
     let mainSubtextColor: UIColor = UIColor(hexString: "#768695")
     let statusBarStyle: UIStatusBarStyle = .lightContent

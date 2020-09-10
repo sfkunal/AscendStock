@@ -91,7 +91,7 @@ class ATCSignUpScreenManager: ATCSignUpScreenDelegate {
             signUpButton.configure(color: uiConfig.loginButtonTextColor,
                                      font: uiConfig.signUpScreenButtonFont,
                                      cornerRadius: 40/2,
-                                     backgroundColor: UIColor(hexString: "#334D92"))
+                                     backgroundColor: UIColor(hexString: "#00ff99"))
         }
     }
 
