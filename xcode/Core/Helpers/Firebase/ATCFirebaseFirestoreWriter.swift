@@ -1,10 +1,4 @@
-//
-//  ATCFirebaseFirestoreWriter.swift
-//  RestaurantApp
-//
-//  Created by Florian Marcu on 11/13/18.
-//  Copyright © 2018 iOS App Templates. All rights reserved.
-//
+
 
 import UIKit
 import FirebaseFirestore
