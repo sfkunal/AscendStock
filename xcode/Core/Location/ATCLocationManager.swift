@@ -1,10 +1,3 @@
-//
-//  ATCLocationManager.swift
-//  CupertinoKit
-//
-//  Created by Florian Marcu on 6/16/19.
-//  Copyright © 2019 Instamobile. All rights reserved.
-//
 
 import CoreLocation
 import UIKit
