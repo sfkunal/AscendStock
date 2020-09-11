@@ -1,10 +1,4 @@
-//
-//  ATCImageRowAdapter.swift
-//  ListingApp
-//
-//  Created by Florian Marcu on 6/10/18.
-//  Copyright © 2018 Instamobile. All rights reserved.
-//
+
 
 import UIKit
 
