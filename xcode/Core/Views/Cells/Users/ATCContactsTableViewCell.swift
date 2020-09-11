@@ -1,10 +1,3 @@
-//
-//  ATCContactsTableViewCell.swift
-//  ChatApp
-//
-//  Created by Osama Naeem on 21/05/2019.
-//  Copyright © 2019 Instamobile. All rights reserved.
-//
 
 import UIKit
 
