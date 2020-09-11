@@ -1,10 +1,4 @@
-//
-//  ATCSquareStoryRowAdapter.swift
-//  ListingApp
-//
-//  Created by Florian Marcu on 6/9/18.
-//  Copyright © 2018 Instamobile. All rights reserved.
-//
+
 
 import UIKit
 
