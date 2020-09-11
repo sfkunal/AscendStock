@@ -1,10 +1,4 @@
-//
-//  ATCMessengerUserCollectionViewCell.swift
-//  ChatApp
-//
-//  Created by Florian Marcu on 8/22/18.
-//  Copyright © 2018 Instamobile. All rights reserved.
-//
+
 
 import UIKit
 
