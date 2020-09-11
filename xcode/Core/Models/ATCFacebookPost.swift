@@ -1,10 +1,4 @@
-//
-//  ATCFacebookPost.swift
-//  AppTemplatesCore
-//
-//  Created by Florian Marcu on 2/2/17.
-//  Copyright © 2017 iOS App Templates. All rights reserved.
-//
+
 
 class ATCFacebookPost: ATCGenericBaseModel {
     var description: String {
