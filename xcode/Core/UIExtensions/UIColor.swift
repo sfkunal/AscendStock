@@ -1,11 +1,3 @@
-//
-//  UIColor.swift
-//  ShoppingApp
-//
-//  Created by Florian Marcu on 11/11/17.
-//  Copyright © 2017 iOS App Templates. All rights reserved.
-//
-
 import Foundation
 import UIKit
 
