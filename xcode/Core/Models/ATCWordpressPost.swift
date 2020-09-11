@@ -1,10 +1,4 @@
-//
-//  WordpressPost.swift
-//  AppTemplatesFoundation
-//
-//  Created by Florian Marcu on 2/4/17.
-//  Copyright © 2017 iOS App Templates. All rights reserved.
-//
+
 
 public class ATCWordpressPost: ATCGenericBaseModel {
     var link: String?
