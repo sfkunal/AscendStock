@@ -1,10 +1,4 @@
-//
-//  ATCViewControllerContainerCollectionViewCell.swift
-//  ListingApp
-//
-//  Created by Florian Marcu on 6/12/18.
-//  Copyright © 2018 Instamobile. All rights reserved.
-//
+
 
 import UIKit
 
