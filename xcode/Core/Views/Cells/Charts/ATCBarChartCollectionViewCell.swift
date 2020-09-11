@@ -1,10 +1,4 @@
-//
-//  ATCBarChartCollectionViewCell.swift
-//  DashboardApp
-//
-//  Created by Florian Marcu on 8/6/18.
-//  Copyright © 2018 Instamobile. All rights reserved.
-//
+
 
 import Charts
 import UIKit
