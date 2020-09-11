@@ -1,10 +1,4 @@
-//
-//  ATCSocialUserManagerProtocol.swift
-//  CryptoApp
-//
-//  Created by Florian Marcu on 6/29/19.
-//  Copyright © 2019 Instamobile. All rights reserved.
-//
+
 
 import UIKit
 
