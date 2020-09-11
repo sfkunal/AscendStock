@@ -1,10 +1,4 @@
-//
-//  CPKCarouselFlowLayout.swift
-//  Shopertino
-//
-//  Created by Florian Marcu on 5/4/19.
-//  Copyright © 2019 Instamobile. All rights reserved.
-//
+
 
 import UIKit
 
