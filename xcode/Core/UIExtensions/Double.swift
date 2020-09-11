@@ -1,11 +1,3 @@
-//
-//  NSNumber.swift
-//  DashboardApp
-//
-//  Created by Florian Marcu on 8/10/18.
-//  Copyright © 2018 Instamobile. All rights reserved.
-//
-
 import UIKit
 
 extension Double {
