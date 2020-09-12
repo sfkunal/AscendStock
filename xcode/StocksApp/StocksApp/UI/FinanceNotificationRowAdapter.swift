@@ -14,7 +14,7 @@ class FinanceNotificationRowAdapter: ATCGenericCollectionRowAdapter {
         cell.hairlineView.backgroundColor = uiConfig.hairlineColor
 
         cell.categoryLabel.text = viewModel.category
-        cell.categoryLabel.textColor = UIColor(hexString: "#BCC8CE")
+        cell.categoryLabel.textColor = UIColor(hexString: "#343d52")
         cell.categoryLabel.font = uiConfig.boldFont(size: 12)
 
         cell.contentLabel.text = viewModel.content
@@ -22,7 +22,7 @@ class FinanceNotificationRowAdapter: ATCGenericCollectionRowAdapter {
         cell.contentLabel.font = uiConfig.regularFont(size: 16)
 
         cell.timeLabel.text = TimeFormatHelper.timeAgoString(date: viewModel.createdAt)
-        cell.timeLabel.textColor = UIColor(hexString: "#BCC8CE")
+        cell.timeLabel.textColor = UIColor(hexString: "#343d52")
         cell.timeLabel.font = uiConfig.italicMediumFont
 
         cell.badgeView.isHidden = !viewModel.isNotSeen
@@ -30,7 +30,7 @@ class FinanceNotificationRowAdapter: ATCGenericCollectionRowAdapter {
         cell.badgeView.clipsToBounds = true
         cell.badgeView.layer.cornerRadius = 5
 
-        cell.notificationImageView.tintColor = UIColor(hexString: "#96999B")
+        cell.notificationImageView.tintColor = UIColor(hexString: "#343d52")
         cell.notificationImageView.image = UIImage.localImage(viewModel.icon, template: true)
 
         cell.setNeedsLayout()

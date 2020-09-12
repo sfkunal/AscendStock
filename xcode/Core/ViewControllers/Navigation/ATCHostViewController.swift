@@ -253,7 +253,7 @@ public class ATCHostViewController: UIViewController, ATCOnboardingCoordinatorDe
                     maker.bottom.equalTo(uiControl.snp.bottom)
                     maker.top.equalTo(uiControl)
                 }
-                imageView.backgroundColor = UIColor(hexString: "#b5b5b5")
+                imageView.backgroundColor = UIColor(hexString: "#343d52")
                 if let url = user?.profilePictureURL {
                     imageView.kf.setImage(with: URL(string: url))
                 }

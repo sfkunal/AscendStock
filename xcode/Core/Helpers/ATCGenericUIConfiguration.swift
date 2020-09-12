@@ -19,9 +19,9 @@ class ATCDefaultUIConfiguration: ATCUIGenericConfigurationProtocol {
     let mainThemeBackgroundColor: UIColor = .white
     let mainThemeForegroundColor: UIColor = UIColor(hexString: "#ff5a66")
     let mainTextColor: UIColor = UIColor(hexString: "#464646")
-    let mainSubtextColor: UIColor = UIColor(hexString: "#dddddd")
+    let mainSubtextColor: UIColor = UIColor(hexString: "#343d52")
     let statusBarStyle: UIStatusBarStyle = .default
-    let hairlineColor: UIColor = UIColor(hexString: "#d6d6d6")
+    let hairlineColor: UIColor = UIColor(hexString: "#343d52")
 
     let regularSmallFont = UIFont.systemFont(ofSize: 12)
     let regularMediumFont = UIFont.systemFont(ofSize: 14)

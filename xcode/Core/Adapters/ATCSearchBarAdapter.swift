@@ -17,7 +17,7 @@ class ATCSearchBarAdapter: NSObject, ATCGenericCollectionRowAdapter, UISearchBar
     func configure(cell: UICollectionViewCell, with object: ATCGenericBaseModel) {
         guard let viewModel = object as? ATCSearchBar, let cell = cell as? ATCSearchBarCollectionViewCell else { return }
         cell.searchBar.backgroundColor = .clear
-        cell.searchBar.tintColor = UIColor(hexString: "#8e8d93")
+        cell.searchBar.tintColor = UIColor(hexString: "#343d52")
         cell.searchBar.searchBarStyle = .minimal
         cell.searchBar.backgroundImage = nil
 

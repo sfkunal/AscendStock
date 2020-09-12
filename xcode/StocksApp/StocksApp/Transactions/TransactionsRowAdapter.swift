@@ -13,7 +13,7 @@ class TransactionsRowAdapter: ATCGenericCollectionRowAdapter {
             if transaction.imageURL.count == 0 {
                 let placeholder = UIImage.localImage("storefront-icon", template: true)
                 cell.imageView.image = placeholder
-                cell.imageView.backgroundColor = UIColor(hexString: "#687072")
+                cell.imageView.backgroundColor = UIColor(hexString: "#343d52")
                 cell.imageView.contentMode = .center
             } else {
                 cell.imageView.kf.setImage(with: URL(string: transaction.imageURL))

@@ -24,7 +24,7 @@ class InstaMultiRowPageCarouselRowAdapter: ATCGenericCollectionRowAdapter {
             } else {
                 cell.pageControl.isHidden = true
             }
-            cell.pageControl.pageIndicatorTintColor = UIColor(hexString: "#e6e7e9")
+            cell.pageControl.pageIndicatorTintColor = UIColor(hexString: "#343d52")
             cell.pageControl.backgroundColor = .clear
             cell.pageControl.currentPageIndicatorTintColor = uiConfig.mainThemeForegroundColor
         }

@@ -87,7 +87,7 @@ class ATCDatedLineChartViewController: UIViewController, UICollectionViewDataSou
             cell.containerView.backgroundColor = .clear
 
             if dateList.dates[indexPath.row].title == selectedDate.title {
-                cell.containerView.backgroundColor = UIColor(hexString: "#617181")
+                cell.containerView.backgroundColor = UIColor(hexString: "#343d52")
                 cell.titleLabel.textColor = uiConfig.mainThemeBackgroundColor
             } else {
                 cell.titleLabel.textColor = uiConfig.mainTextColor

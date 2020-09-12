@@ -14,7 +14,7 @@ protocol ATCMenuCollectionViewCellConfigurable {
 
 public struct ATCMenuUIConfiguration {
     var itemFont: UIFont = UIFont(name: "FallingSkyCond", size: 16)!
-    var tintColor: UIColor = UIColor(hexString: "#555555")
+    var tintColor: UIColor = UIColor(hexString: "#343d52")
     var itemHeight: CGFloat = 45.0
     var backgroundColor: UIColor = .white
 }

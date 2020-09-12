@@ -45,13 +45,13 @@ class FinanceOnboardingConfiguration: ATCOnboardingConfigurationProtocol {
         signUpButtonFont = config.boldLargeFont
         signUpButtonBackgroundColor = config.mainThemeBackgroundColor
         signUpButtonTextColor = UIColor(hexString: "#00ff99")
-        signUpButtonBorderColor = UIColor(hexString: "#B0B3C6")
+        signUpButtonBorderColor = UIColor(hexString: "#343d52")
         separatorColor = config.mainTextColor
         separatorFont = config.mediumBoldFont
 
-        textFieldColor = UIColor(hexString: "#B0B3C6")
+        textFieldColor = UIColor(hexString: "#343d52")
         textFieldFont = config.regularLargeFont
-        textFieldBorderColor = UIColor(hexString: "#B0B3C6")
+        textFieldBorderColor = UIColor(hexString: "#343d52")
         textFieldBackgroundColor = config.mainThemeBackgroundColor
 
         signUpTextFieldFont = config.regularMediumFont

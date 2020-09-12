@@ -21,7 +21,7 @@ class AssetDetailsViewController: ATCGenericCollectionViewController {
         let layout = ATCLiquidCollectionViewLayout(cellPadding: 0)
         let homeConfig = ATCGenericCollectionViewControllerConfiguration(pullToRefreshEnabled: false,
                                                                          pullToRefreshTintColor: .white,
-                                                                         collectionViewBackgroundColor: UIColor(hexString: "#f4f6f9"),
+                                                                         collectionViewBackgroundColor: UIColor(hexString: "#343d52"),
                                                                          collectionViewLayout: layout,
                                                                          collectionPagingEnabled: false,
                                                                          hideScrollIndicators: true,
