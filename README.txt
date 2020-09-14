@@ -24,4 +24,4 @@ This project belongs to @Ascend2020. Do not distribute
 4. Open .xcworkspace in Xcode. remember, you want to run this workspace file with
     Xcode. Do not accidentally open the Xcode project file.
 
-5. Run the project. (Press the play button in the top left)
+5. Run the project. (Press the play button in the top left).
