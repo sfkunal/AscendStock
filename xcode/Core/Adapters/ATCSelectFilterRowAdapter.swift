@@ -9,7 +9,7 @@ class ATCSelectFilterRowAdapter: ATCGenericCollectionRowAdapter {
     var height: CGFloat
 
     init(titleFont: UIFont? = nil,
-         titleColor: UIColor = UIColor(hexString: "#343d52"),
+         titleColor: UIColor = UIColor(hexString: "#454545"),
          optionFont: UIFont? = nil,
          height: CGFloat = 70) {
         self.titleFont = titleFont

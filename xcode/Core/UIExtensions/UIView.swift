@@ -16,7 +16,7 @@ extension UIView {
     func dropCupertinoShadow(scale: Bool = true) {
         layer.masksToBounds = false
         layer.cornerRadius = 8
-        layer.shadowColor = UIColor(hexString: "#343d52").cgColor
+        layer.shadowColor = UIColor(hexString: "#333333").cgColor
         layer.shadowOpacity = 0.4
         layer.shadowOffset = CGSize(width: 0, height: 2)
         layer.shadowRadius = 7

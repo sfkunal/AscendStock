@@ -6,9 +6,9 @@ class FinanceUIConfiguration: ATCUIGenericConfigurationProtocol, ATCOnboardingSe
     let mainThemeBackgroundColor: UIColor = .white
     let mainThemeForegroundColor: UIColor = UIColor(hexString: "#00ff99")
     let mainTextColor: UIColor = UIColor(hexString: "#070f12")
-    let mainSubtextColor: UIColor = UIColor(hexString: "#343d52")
+    let mainSubtextColor: UIColor = UIColor(hexString: "#768695")
     let statusBarStyle: UIStatusBarStyle = .lightContent
-    let hairlineColor: UIColor = UIColor(hexString: "#343d52", alpha: 0.4)
+    let hairlineColor: UIColor = UIColor(hexString: "#d6d6d6", alpha: 0.4)
 
     let regularSmallFont = UIFont(name: "AppleSDGothicNeo-Regular", size: 12)!
     let regularMediumFont = UIFont(name: "AppleSDGothicNeo-Regular", size: 14)!
@@ -41,8 +41,8 @@ class FinanceUIConfiguration: ATCUIGenericConfigurationProtocol, ATCOnboardingSe
     func configureUI() {
         UITabBar.appearance().barTintColor = self.mainThemeBackgroundColor
         UITabBar.appearance().tintColor = self.mainThemeForegroundColor
-        UITabBar.appearance().unselectedItemTintColor = UIColor(hexString: "#343d52")
-        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor : UIColor(hexString: "#343d52"),
+        UITabBar.appearance().unselectedItemTintColor = UIColor(hexString: "#a2a2a2")
+        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor : UIColor(hexString: "#a2a2a2"),
                                                           .font: self.boldSuperSmallFont],
                                                          for: .normal)
         UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor : self.mainThemeForegroundColor,

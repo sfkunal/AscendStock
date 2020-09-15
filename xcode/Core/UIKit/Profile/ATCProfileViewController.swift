@@ -36,7 +36,7 @@ class ATCProfileViewController: ATCGenericCollectionViewController, ProfileImage
         super.init(configuration: profileVCConfig, selectionBlock: selectionBlock)
         self.use(adapter: ATCProfileItemRowAdapter(uiConfig: uiConfig), for: "ATCProfileItem")
         self.use(adapter: ATCTextRowAdapter(font: uiConfig.boldFont(size: 18),
-                                            textColor: UIColor(hexString: "#343d52"),
+                                            textColor: UIColor(hexString: "#4A4A4A"),
                                             alignment: .center),
                  for: "ATCText")
         let roundImageAdapter = ATCRoundImageRowAdapter()

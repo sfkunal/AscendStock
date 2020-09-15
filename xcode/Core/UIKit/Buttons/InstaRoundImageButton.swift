@@ -30,7 +30,7 @@ class InstaRoundImageButton: UIButton {
         self.backgroundColor = .white
 
         layer.masksToBounds = false
-        layer.shadowColor = UIColor(hexString: "#343d52").cgColor
+        layer.shadowColor = UIColor(hexString: "#bbbbbb").cgColor
         layer.shadowOpacity = 0.2
         layer.shadowOffset = CGSize(width: 0, height: 2)
         layer.shadowRadius = 1

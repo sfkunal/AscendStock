@@ -21,7 +21,7 @@ class ATCProfileItemRowAdapter: ATCGenericCollectionRowAdapter {
         switch viewModel.type {
         case .arrow:
             cell.accessoryImageView.image = UIImage.localImage("forward-arrow-black", template: true)
-            cell.accessoryImageView.tintColor = UIColor(hexString: "#343d52")
+            cell.accessoryImageView.tintColor = UIColor(hexString: "#DBDBDE")
         default:
             cell.accessoryImageView.image = nil
         }
